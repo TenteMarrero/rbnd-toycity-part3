@@ -1,0 +1,13 @@
+
+How long did you spend working on this project?
+- I spent around 3 hours.
+
+What was the most rewarding challenge you conquered?
+- Simplifying methods and making everything work together.
+
+What two additional features did you build? Why?
+- Better ways to find transactions. Seemed a good feature and easy to do.
+- A way for customers to return items. It was challenging.
+
+Where do you still have room to grow?
+Probably getting to know more Ruby built in methods and functionality. Also getting more used to classes.
