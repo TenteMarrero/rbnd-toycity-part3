@@ -14,6 +14,10 @@ class Customer
 		get_customer_by_name name
 	end
 
+	def purchase product
+		Transaction.new(self, product)
+	end
+
 	
 	private
 
