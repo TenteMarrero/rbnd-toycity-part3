@@ -16,7 +16,7 @@ class Transaction
 	end
 
 	def self.find id
-		get_transaction_by_id id
+		@@transactions.find {|transaction| transaction.id == id}
 	end
 
 	private
@@ -25,19 +25,4 @@ class Transaction
 		@@transactions << self
 	end
 
-	def self.get_transaction_by_id id
-		get_first_result(search_by_id id)
-	end
-
-	def self.search_by_id id
-		@@transactions.select {|transaction| transaction.id == id}
-	end
-
-	def self.get_first_result search_results
-		if search_results.length > 0
-			return search_results[0]
-		else
-			return nil
-		end
-	end
 end
