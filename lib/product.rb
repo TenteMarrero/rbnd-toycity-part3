@@ -22,6 +22,10 @@ class Product
 		end
 	end
 
+	def add_stock
+		@stock += 1
+	end
+
 	def self.all
 		@@products
 	end
