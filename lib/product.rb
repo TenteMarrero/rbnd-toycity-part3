@@ -23,6 +23,8 @@ class Product
 	def self.in_stock
 		search_products_in_stock
 	end
+
+	
 	private
 
 	def add_to_products
